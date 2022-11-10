@@ -11,7 +11,7 @@ const Main = () => {
           <div>
             <p className='mt-5 md:mt-0 md:text-lg'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
               But is it really fulfilling its promise?</p>
-            <button className='mt-4 bg-red-400 text-white font-semibold tracking-[0.15em] p-2 px-9 uppercase md:mt-10 md:p-3 md:px-11'>Read More</button>
+            <button className='mt-4 bg-red-400 text-white font-semibold tracking-[0.15em] p-2 px-9 uppercase md:mt-10 md:p-3 md:px-11 hover:bg-slate-900'>Read More</button>
           </div>
         </article>
       </section>
