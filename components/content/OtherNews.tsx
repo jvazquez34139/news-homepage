@@ -25,13 +25,12 @@ const OtherNews = () => {
   ];
   return (
     <aside className='bg-slate-900 text-white mt-14 p-4 md:w-96 md:p-5  md:mt-8'>
-      <h2 className='font-semibold
-       text-3xl text-orange-300 md:text-4xl'>New</h2>
+      <h2 className='font-semibold text-3xl text-orange-300 md:text-4xl'>New</h2>
       {otherNews.map((article) => {
         return (
           <article className='border-b-[1px] border-slate-700 last:border-b-0 py-5' key={article.key}>
             <h3 className='font-bold mb-2 text-lg md:text-xl'>{article.linkName}</h3>
-            <p className='md:text-lg font-extralight'>{article.desc}</p>
+            <p className='md:text-lg md:font-extralight'>{article.desc}</p>
           </article>
         )
       }

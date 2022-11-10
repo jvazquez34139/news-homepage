@@ -6,7 +6,7 @@ const Main = () => {
       <section>
         <img src="/assets/images/image-web-3-desktop.jpg" className='w-0 h-0 md:w-full md:h-72'></img>
         <img src="/assets/images/image-web-3-mobile.jpg" className="md:hidden"></img>
-        <article className='flex md:mt-10'>
+        <article className='md:flex md:mt-10'>
           <h1 className='font-bold text-5xl mt-4 md:mt-0 md:mr-14 md:font-bold md:text-7xl'>The Bright Future of Web 3.0?</h1>
           <div>
             <p className='mt-5 md:mt-0 md:text-lg'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.

@@ -31,11 +31,11 @@ const Articles = () => {
   ]
 
   return (
-    <aside className='mt-10 text-slate-400'>
+    <aside className='mt-10 text-slate-400 md:flex md:justify-between md:w-full'>
 
       {articles.map((article) => {
         return (
-          <article key={article.key} className="flex justify-between  mb-8">
+          <article key={article.key} className="flex justify-between  mb-8 md:w-96">
             <img src={article.img} alt={`image for "${article.title}"`}
               className="w-28" />
             <div className='pl-5 flex flex-col justify-between'>

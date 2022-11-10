@@ -5,7 +5,7 @@ import Articles from "../components/content/Articles"
 export default function Home() {
   return (
     <>
-      <div className="flex">
+      <div className="md:flex">
         <Main />
         <OtherNews />
       </div>
@@ -13,3 +13,5 @@ export default function Home() {
     </>
   )
 }
+
+//work on interactive elements next!11/10/2022
