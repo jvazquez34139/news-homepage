@@ -24,12 +24,13 @@ const OtherNews = () => {
     }
   ];
   return (
-    <aside>
-      <h2>News</h2>
+    <aside className='bg-slate-900 text-white mt-14 p-4'>
+      <h2 className='font-semibold
+       text-3xl text-orange-300'>New</h2>
       {otherNews.map((article) => {
         return (
-          <article key={article.key}>
-            <h3>{article.linkName}</h3>
+          <article className='border-b-[1px] border-slate-700 last:border-b-0 py-5' key={article.key}>
+            <h3 className='font-bold mb-2 text-lg'>{article.linkName}</h3>
             <p>{article.desc}</p>
           </article>
         )
