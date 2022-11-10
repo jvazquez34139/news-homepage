@@ -17,8 +17,8 @@ const Layout = ({ children }: { children: JSX.Element }) => {
         <title>Frontend Mentor | News homepage</title>
         <meta name="description" content="Frontend Mentor | News homepage" />
       </Head>
-      <body className='flex p-2 font-sans'>
-        <div className='w-[1440] m-auto'>
+      <body className='p-2 md:mx-auto font-sans md:w-[1440px]'>
+        <div className=''>
           <Header />
           {children}
           <Footer />

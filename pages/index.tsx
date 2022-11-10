@@ -5,8 +5,10 @@ import Articles from "../components/content/Articles"
 export default function Home() {
   return (
     <>
-      <Main />
-      <OtherNews />
+      <div className="flex">
+        <Main />
+        <OtherNews />
+      </div>
       <Articles />
     </>
   )
