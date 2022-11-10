@@ -1,12 +1,12 @@
 import Nav from './Nav';
-import { useState } from 'react';
+import Image from 'next/image';
 
 const Header = (props: { toggleNav: Function, isNavOpen: Boolean }) => {
   const { toggleNav, isNavOpen } = props;
 
   return (
     <header className='w-full flex h-16 mb-4'>
-      <img src="/assets/images/logo.svg" className='h-9 my-auto' />
+      <Image src="/assets/images/logo.svg" alt="Logo for W." className='h-9 my-auto' />
       <Nav toggleNav={toggleNav} isNavOpen={isNavOpen} />
     </header>
   )
