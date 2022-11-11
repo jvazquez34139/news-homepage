@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NavLink from "./NavLink";
 
 const Nav = (props: { toggleNav: Function, isNavOpen: Boolean }) => {
@@ -6,7 +7,7 @@ const Nav = (props: { toggleNav: Function, isNavOpen: Boolean }) => {
 
   return (
     <nav className="w-full flex align-middle" onClick={(e) => toggleNav(e.target as HTMLElement)}>
-      <img src={`/assets/images/icon-menu.svg`} alt="hamburger menu" className="ml-auto my-auto h-7 w-14 md:hidden" />
+      <Image src={`/assets/images/icon-menu.svg`} alt="hamburger menu" className="ml-auto my-auto h-7 w-14 md:hidden" />
       <ul className="md:flex md:ml-auto hidden md:w-auto md:auto">
         {linkNames.map((linkName, index) => (
           <NavLink key={index} linkName={linkName} />

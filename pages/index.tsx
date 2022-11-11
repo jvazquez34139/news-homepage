@@ -13,5 +13,3 @@ export default function Home() {
     </>
   )
 }
-
-//work on interactive elements next!11/10/2022

@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/gh-pages-news-homepage',
+  images: {
+    unoptimized: true,
+  }
 }
 
 module.exports = nextConfig

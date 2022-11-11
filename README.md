@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is single page Front-end project from a challenge on frontendmentor.io.
 
-## Getting Started
+The challenge was to transform screenshots of a webpage designed on figma into an interactive responsive web page.
 
-First, run the development server:
+For this challenge I used Next.js as my front-end framework and Tailwindcss as my method of styling elements.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The goal for me was to practice Next.js a bit more as this was only the second project i've worked on with Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The page has a nav bar with links and there are other articles and news headlines that have a hover effect that appear to be clickable but are just for aesthetic practice and dont really link to any new page.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This was all provided by Frontendmentor.io:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - JPEG design files for mobile & desktop layouts
+  - Style guide for fonts, colors, etc
+  - Optimized image assets
+  - README file to help you get started
+  - HTML file with pre-written content

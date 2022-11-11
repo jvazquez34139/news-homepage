@@ -1,4 +1,3 @@
-import React from 'react'
 
 const NavLink = (props: { key: number, linkName: string }) => {
   const { linkName } = props;
