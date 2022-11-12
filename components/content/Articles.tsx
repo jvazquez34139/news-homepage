@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 const Articles = () => {
 
@@ -36,7 +35,7 @@ const Articles = () => {
       {articles.map((article) => {
         return (
           <article key={article.key} className="flex justify-between text-slate-900 hover:text-red-400 hover:cursor-pointer mb-8 md:w-96">
-            <Image src={article.img} alt={`image for "${article.title}"`}
+            <img src={article.img} alt={`image for "${article.title}"`}
               className="w-28" />
             <div className='pl-5 flex flex-col justify-between'>
               <p className="text-3xl text-slate-400">{`0${article.key}`}</p>

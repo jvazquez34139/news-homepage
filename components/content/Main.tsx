@@ -1,11 +1,11 @@
-import Image from 'next/image'
+
 
 const Main = () => {
   return (
     <main className='mt-2 md:w-9/12 md:mr-10 md:mt-8'>
       <section>
-        <Image src="/assets/images/image-web-3-desktop.jpg" alt="red yellow blue puzzles" className='w-0 h-0 md:w-full md:h-72'></Image>
-        <Image src="/assets/images/image-web-3-mobile.jpg" alt="red yellow blue puzzles" className="md:hidden"></Image>
+        <img src="/assets/images/image-web-3-desktop.jpg" alt="red yellow blue puzzles" className='w-0 h-0 md:w-full md:h-72' />
+        <img src="/assets/images/image-web-3-mobile.jpg" alt="red yellow blue puzzles" className="md:hidden" />
         <article className='md:flex md:mt-10'>
           <h1 className='font-bold text-5xl mt-4 md:mt-0 md:mr-14 md:font-bold md:text-7xl'>The Bright Future of Web 3.0?</h1>
           <div>
